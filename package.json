@@ -4,7 +4,7 @@
   "description": "iPhone Notifier ===============",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kirbyk/iphone-notifier/issues"
   },
-  "homepage": "https://github.com/kirbyk/iphone-notifier#readme"
+  "homepage": "https://github.com/kirbyk/iphone-notifier#readme",
+  "dependencies": {
+    "mongodb": "^2.2.10"
+  }
 }
